@@ -21,6 +21,6 @@ public class RestartButton : MonoBehaviour
     public void RestartGame()
     {
         // Reload the current scene
-        SceneManager.LoadScene("minigame1");
+        SceneManager.LoadScene(0);
     }
 }
